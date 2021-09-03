@@ -1,0 +1,19 @@
+div#map {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 800px;
+        height: 800px;
+}
+
+div#switcher {
+        position: absolute;
+        top: 10px;
+        left: 820px;
+        width: 200px;
+        height: 800px;
+}
+
+div#switcher ul {
+        list-style-type:none;
+}
