@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+        <div id="map"></div>
+        <div id="switcher">
+                <ul>
+                        <switcher-item v-for="layer in layers"
+                                       v-bind:layer="layer"
+                                       v-bind:checked="layer.visible"
+                                       v-bind:key="layer.ol_id"></switcher-item>
+                </ul>
+        </div>
+    <div>
+  </body>
+</html>
