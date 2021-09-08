@@ -8,7 +8,7 @@ const vectorSource = new VectorSource({
   format: new GeoJSON(),
   url: function (extent) {
     return (
-      'http://gis.cenia.cz/geoserver/corine_land_cover_2018/wfs?'+
+      'https://gis.cenia.cz/geoserver/corine_land_cover_2018/wfs?'+
       'service=wfs&version=2.0.0&request=GetFeature&' +
       'typename=corine_land_cover_2018:corine_cha18_CZ&' +
       'outputFormat=application/json&srsname=EPSG:3857&' +
